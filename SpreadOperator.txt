@@ -1,0 +1,17 @@
+//Spread Operator
+  const Fullname=['Gaurav','Jadhav'];
+  const bioData=[1,...Fullname,'Male'];
+  console.log(Fullname);
+  console.log(bioData);
+
+  const Obj={
+      fname:"Gaurav",
+      lname:"Jadhav"
+  }
+  const spreadObj={
+      id:1,
+      ...Obj,
+      gender:'Male'
+  }
+  console.log(Obj);
+  console.log(spreadObj);
